@@ -57,6 +57,9 @@ class Bandwidth:
 
 sizes = [4000, 5000, 6000, 7000, 8000, 9000]
 test = Bandwidth()
-test.getBandwidth(1000)
+test.getBandwidth(12000)
+
+# when looping through the matrix sizes we get smaller data sizes and faster execution times
+# running each matrix size individually seems to be more accurate
 # for i in sizes:
     # test.getBandwidth(i)
