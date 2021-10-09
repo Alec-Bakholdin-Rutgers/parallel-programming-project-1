@@ -1,0 +1,4 @@
+To determine the cache size, the goal was to perform simple operations
+over an array of a given size. If the entire array could fit into
+the L1 cache, subsequent loops over that same array would take
+less time, and so we could 
